@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+Esta es la pagina principal
