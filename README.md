@@ -7,3 +7,11 @@
 De este modo, mediante **GitHub Pages** vamos a poder realizar la publicación de nuestro sitio web estático directamente en nuestro repositorio, poniendole como nombre a este, el que tenemos puesto de usuario en nuestro **GitHub**, seguido de ".github.io". 
 En este caso el repositorio será puesto como público. Para ello estaremos utilizando tambien el **Codespace** del repositorio el cual es un servicio que permite a los desarrolladores crear y gestionar entornos de desarrollo en la nube para sus proyectos directamente desde el navegador web o desde **Visual Studio Code**. 
 
+# 1 Creación de un contenedor Docker con Jekyll
+
+Este comando nos permite crear la estructura de directorios y los archivos necesarios de un nuevo proyecto **Jekyll**.
+
+```
+docker run -it --rm -v "$PWD:/srv/jekyll" jekyll/jekyll jekyll new blog
+```
+
