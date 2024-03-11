@@ -9,9 +9,15 @@ En este caso el repositorio será puesto como público. Para ello estaremos util
 
 # 1 Creación de un contenedor Docker con Jekyll
 
+# 1.1 jekyll new
+
 Este comando nos permite crear la estructura de directorios y los archivos necesarios de un nuevo proyecto **Jekyll**.
 
 ```
 docker run -it --rm -v "$PWD:/srv/jekyll" jekyll/jekyll jekyll new blog
 ```
+
+# 1.2 jekyll build
+
+Aqui nuevamente contamos con nuestro **WorkFlow** para automatizar las tareas, pero igualmente indico cual sería el comando para realizar el **build**, el cual permite generar un sitio **HTML estático** a partir del contenido del proyecto **Jekyll**.
 
