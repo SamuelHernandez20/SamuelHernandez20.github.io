@@ -84,3 +84,28 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 ```
+
+# Creación de un par de post
+
+Dentro mi carpeta **_posts** e **images** tengo los post escritos con MarkDown donde hago llamada a ciertas imagenes, la parte principal de estos archivos para ser considerados de tipo **post**, es la siguiente:
+
+- Para el primer post:
+```
+---
+layout: post
+title:  "Practica LAMP en RHEL"
+date:   2024-02-19 06:24:34 -0600
+categories: docker iaw
+---
+```
+
+- Para el segundo post:
+- 
+```
+---
+layout: post
+title:  "Practica LAMP en ubuntu"
+date:   2024-02-19 07:24:34 -0600
+categories: docker iaw
+---
+```
