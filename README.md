@@ -100,7 +100,6 @@ categories: docker iaw
 ```
 
 - Para el segundo post:
-- 
 ```
 ---
 layout: post
