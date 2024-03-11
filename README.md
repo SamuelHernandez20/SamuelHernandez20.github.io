@@ -21,3 +21,6 @@ docker run -it --rm -v "$PWD:/srv/jekyll" jekyll/jekyll jekyll new blog
 
 Aqui nuevamente contamos con nuestro **WorkFlow** para automatizar las tareas, pero igualmente indico cual sería el comando para realizar el **build**, el cual permite generar un sitio **HTML estático** a partir del contenido del proyecto **Jekyll**.
 
+```
+docker run -it --rm -v "$PWD:/srv/jekyll" jekyll/jekyll jekyll build
+```
